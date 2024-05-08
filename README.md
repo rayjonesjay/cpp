@@ -1,2 +1,2 @@
 # cpp
-This repo is where I learn c++ programming
+Learn C++ Programming with me
