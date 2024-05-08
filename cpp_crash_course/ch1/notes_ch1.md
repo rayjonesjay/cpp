@@ -181,7 +181,28 @@ int main() {
 
 >> Num1 42 Step 1
 >> Num2 0 Step 0
->> Num3 -32767 -1
+>> Num3 -32767 Step -1
 
 Because printf() is used we must include the cstdio library.
 
+
+
+#DEBUGGING
+One of the most important skills for a software engineer is efficient , effective debugging.
+Most development environments have debugging tools.
+
+Debug your programs in debug mode.
+The only reaseon to debug in release mode is to diagnose some rare conditions that occur in release mode but not in debug mode.
+There is release mode and debug mode
+
+
+#USING GDB
+
+#setting break point:
+To insert a breakpoint, use the command break, which takes a single argument corresponding to the name of the source file and the line
+where you want to break separated by colon
+
+`gdb> break main.cpp:5`
+
+name of the source file -> main.cpp
+line to set break point -> 5
