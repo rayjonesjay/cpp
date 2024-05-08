@@ -15,7 +15,7 @@ int main() {
 	printf("Num1 %d Step %d\n", num1,result1);
 	printf("Num2 %d Step %d\n", num2,result2);
 	printf("Num3 %d Step %d\n", num3,result3);
-
+	
 	return 0;
 }
 
